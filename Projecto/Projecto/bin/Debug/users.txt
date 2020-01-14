@@ -1,0 +1,2 @@
+admin;Admin;admin@admin.com;admin
+chico;Francisco;franc@hotmail.com;12345

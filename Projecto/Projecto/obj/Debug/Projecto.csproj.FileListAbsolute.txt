@@ -1,0 +1,14 @@
+D:\1Faculdade\4ºano\AED\Trabalho\Projecto\Projecto\bin\Debug\Projecto.exe.config
+D:\1Faculdade\4ºano\AED\Trabalho\Projecto\Projecto\bin\Debug\Projecto.exe
+D:\1Faculdade\4ºano\AED\Trabalho\Projecto\Projecto\bin\Debug\Projecto.pdb
+D:\1Faculdade\4ºano\AED\Trabalho\Projecto\Projecto\obj\Debug\Projecto.csprojAssemblyReference.cache
+D:\1Faculdade\4ºano\AED\Trabalho\Projecto\Projecto\obj\Debug\Projecto.Login.resources
+D:\1Faculdade\4ºano\AED\Trabalho\Projecto\Projecto\obj\Debug\Projecto.Properties.Resources.resources
+D:\1Faculdade\4ºano\AED\Trabalho\Projecto\Projecto\obj\Debug\Projecto.csproj.GenerateResource.cache
+D:\1Faculdade\4ºano\AED\Trabalho\Projecto\Projecto\obj\Debug\Projecto.csproj.CoreCompileInputs.cache
+D:\1Faculdade\4ºano\AED\Trabalho\Projecto\Projecto\obj\Debug\Projecto.exe
+D:\1Faculdade\4ºano\AED\Trabalho\Projecto\Projecto\obj\Debug\Projecto.pdb
+D:\1Faculdade\4ºano\AED\Trabalho\Projecto\Projecto\obj\Debug\Projecto.Registo.resources
+D:\1Faculdade\4ºano\AED\Trabalho\Projecto\Projecto\obj\Debug\Projecto.Main.resources
+D:\1Faculdade\4ºano\AED\Trabalho\Projecto\Projecto\obj\Debug\Projecto.GerirCategorias.resources
+D:\1Faculdade\4ºano\AED\Trabalho\Projecto\Projecto\obj\Debug\Projecto.GerirReceitas.resources
