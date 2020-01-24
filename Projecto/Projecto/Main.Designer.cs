@@ -50,27 +50,28 @@
             this.adminToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Padding = new System.Windows.Forms.Padding(8, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(1067, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // perfilToolStripMenuItem
             // 
             this.perfilToolStripMenuItem.Name = "perfilToolStripMenuItem";
-            this.perfilToolStripMenuItem.Size = new System.Drawing.Size(54, 24);
+            this.perfilToolStripMenuItem.Size = new System.Drawing.Size(46, 20);
             this.perfilToolStripMenuItem.Text = "Perfil";
+            this.perfilToolStripMenuItem.Click += new System.EventHandler(this.perfilToolStripMenuItem_Click);
             // 
             // catálogoToolStripMenuItem
             // 
             this.catálogoToolStripMenuItem.Name = "catálogoToolStripMenuItem";
-            this.catálogoToolStripMenuItem.Size = new System.Drawing.Size(82, 24);
+            this.catálogoToolStripMenuItem.Size = new System.Drawing.Size(67, 20);
             this.catálogoToolStripMenuItem.Text = "Catálogo";
+            this.catálogoToolStripMenuItem.Click += new System.EventHandler(this.catálogoToolStripMenuItem_Click);
             // 
             // topReceitasToolStripMenuItem
             // 
             this.topReceitasToolStripMenuItem.Name = "topReceitasToolStripMenuItem";
-            this.topReceitasToolStripMenuItem.Size = new System.Drawing.Size(105, 24);
+            this.topReceitasToolStripMenuItem.Size = new System.Drawing.Size(84, 20);
             this.topReceitasToolStripMenuItem.Text = "Top Receitas";
             // 
             // adminToolStripMenuItem
@@ -79,30 +80,29 @@
             this.gerirCategoriasToolStripMenuItem,
             this.gerirReceitasToolStripMenuItem});
             this.adminToolStripMenuItem.Name = "adminToolStripMenuItem";
-            this.adminToolStripMenuItem.Size = new System.Drawing.Size(65, 24);
+            this.adminToolStripMenuItem.Size = new System.Drawing.Size(55, 20);
             this.adminToolStripMenuItem.Text = "Admin";
             // 
             // gerirCategoriasToolStripMenuItem
             // 
             this.gerirCategoriasToolStripMenuItem.Name = "gerirCategoriasToolStripMenuItem";
-            this.gerirCategoriasToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.gerirCategoriasToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
             this.gerirCategoriasToolStripMenuItem.Text = "Gerir Categorias";
             this.gerirCategoriasToolStripMenuItem.Click += new System.EventHandler(this.gerirCategoriasToolStripMenuItem_Click);
             // 
             // gerirReceitasToolStripMenuItem
             // 
             this.gerirReceitasToolStripMenuItem.Name = "gerirReceitasToolStripMenuItem";
-            this.gerirReceitasToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.gerirReceitasToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
             this.gerirReceitasToolStripMenuItem.Text = "Gerir Receitas";
             this.gerirReceitasToolStripMenuItem.Click += new System.EventHandler(this.gerirReceitasToolStripMenuItem_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(467, 233);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(350, 189);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(74, 17);
+            this.label1.Size = new System.Drawing.Size(57, 13);
             this.label1.TabIndex = 1;
             this.label1.Text = "Bem vindo";
             // 
@@ -110,23 +110,21 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Aqua;
-            this.label2.Location = new System.Drawing.Point(480, 302);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(360, 245);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(46, 17);
+            this.label2.Size = new System.Drawing.Size(35, 13);
             this.label2.TabIndex = 2;
             this.label2.Text = "label2";
             // 
             // Main
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Main";
             this.Text = "Main";
             this.Load += new System.EventHandler(this.Main_Load);

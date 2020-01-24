@@ -1,0 +1,2 @@
+Salada;10;Vegan;repolho,salsa;lave os legumes
+Pudim;35;Doces;ovos,fermento,açucar;bater os ovos

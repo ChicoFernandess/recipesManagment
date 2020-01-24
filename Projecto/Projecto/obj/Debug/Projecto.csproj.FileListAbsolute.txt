@@ -12,3 +12,6 @@ D:\1Faculdade\4ºano\AED\Trabalho\Projecto\Projecto\obj\Debug\Projecto.Registo.r
 D:\1Faculdade\4ºano\AED\Trabalho\Projecto\Projecto\obj\Debug\Projecto.Main.resources
 D:\1Faculdade\4ºano\AED\Trabalho\Projecto\Projecto\obj\Debug\Projecto.GerirCategorias.resources
 D:\1Faculdade\4ºano\AED\Trabalho\Projecto\Projecto\obj\Debug\Projecto.GerirReceitas.resources
+D:\1Faculdade\4ºano\AED\Trabalho\Projecto\Projecto\obj\Debug\Projecto.Catalogo.resources
+D:\1Faculdade\4ºano\AED\Trabalho\Projecto\Projecto\obj\Debug\Projecto.Detalhes.resources
+D:\1Faculdade\4ºano\AED\Trabalho\Projecto\Projecto\obj\Debug\Projecto.Perfil.resources

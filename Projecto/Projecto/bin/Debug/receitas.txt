@@ -1,0 +1,7 @@
+Panados;25;Carne;bife,arroz,batatas;fritar por 5 min;D:\1Faculdade\4ºano\AED\Trabalho\Projecto\Projecto\bin\Debug\índice.jfif
+Bacalhau;50;Peixe;bacalhau,batata,azeite;deixar de molho;D:\1Faculdade\4ºano\AED\Trabalho\Projecto\Projecto\bin\Debug\PN_Bacalhau_Lagareiro-1_utili.jpg
+Salada;10;Vegan;repolho,salsa;lave os legumes;D:\1Faculdade\4ºano\AED\Trabalho\Projecto\Projecto\bin\Debug\salada-saborosa.jpg
+receita3;60;Peixe;ing;prep3;D:\1Faculdade\4ºano\AED\Trabalho\Projecto\Projecto\bin\Debug\receita3.png
+Bifinhos;30;Carne;sal alho bife;tempere com sal;D:\1Faculdade\4ºano\AED\Trabalho\Projecto\Projecto\bin\Debug\bifinho_cogumelos2.jpg
+Lombo;90;Carne;molho ingles, sal;deixar de molho 5 horas;D:\1Faculdade\4ºano\AED\Trabalho\Projecto\Projecto\bin\Debug\lombo-assado-de-natal.jpg
+Pudim;35;Doces;ovos,fermento,açucar;bater os ovos;D:\1Faculdade\4ºano\AED\Trabalho\Projecto\Projecto\bin\Debug\pudim-de-leite-moc-_c2_baa_13423_alta.tmb-customthum.jpg

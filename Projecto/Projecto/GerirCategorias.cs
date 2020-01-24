@@ -82,28 +82,7 @@ namespace Projecto
             }
         }
 
-        //Mostra o conteudo do txt para a listbox
-        private void btnShowCategorias_Click(object sender, EventArgs e)
-        {
-            StreamReader sr;
-            try
-            {
-                sr = File.OpenText(categories);
-            }
-            catch (Exception excp) // "apanha"  o erro / exception. 
-                                   // excp traz a mensagem de erro
-            {
-                MessageBox.Show(excp.ToString());
-                return;
-            }
-            string linha;
-            while ((linha = sr.ReadLine()) != null)
-            {
-                listBoxCategories.Items.Add(linha);
-            }
-            sr.Close();
-            
-        }
+       
 
         
     }

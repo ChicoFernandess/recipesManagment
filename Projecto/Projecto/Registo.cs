@@ -73,7 +73,7 @@ namespace Projecto
                 }
                 else if ((txtName.Text != null) && (txtEmail.Text != null) && (txtPass.Text != null) && (txtUserName.Text != null))
                 {
-                    //Se o ficheiro nao exister cria-se um
+                    //Se o ficheiro nao existir cria-se um
                     using(sw = File.CreateText(users))
                     {
                         // Escreve a linha com as informaçoes do user

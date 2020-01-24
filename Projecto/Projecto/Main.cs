@@ -19,7 +19,7 @@ namespace Projecto
 
         private void Main_Load(object sender, EventArgs e)
         {
-            label2.Text = people.username;
+            label2.Text = people.username; // nome do label do main é igual ao user logado
 
             if(label2.Text != "admin")
             {
@@ -43,6 +43,20 @@ namespace Projecto
             GerirReceitas openReceitas = new GerirReceitas();
             openReceitas.Show();
             this.Hide();
+        }
+
+        private void catálogoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Catalogo openCatalogo = new Catalogo();
+            openCatalogo.Show();
+            this.Hide();
+        }
+
+        private void perfilToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Perfil openPerfil = new Perfil();
+            openPerfil.Show();
+
         }
     }
 }
