@@ -1,3 +1,5 @@
 admin;Admin;admin@admin.com;admin
 chico;Francisco;franc@hotmail.com;12345
 user1;user;user@user.com;123
+Ramsey;Ramsey;ram@ram.com;123
+ljubomir;ljubomir;sim@hotmail.com;123

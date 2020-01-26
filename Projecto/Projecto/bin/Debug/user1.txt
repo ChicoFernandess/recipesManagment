@@ -1,1 +1,2 @@
 receita3;60;Peixe;ing;prep3
+Bacalhau;50;Peixe;bacalhau,batata,azeite;deixar de molho

@@ -1,0 +1,6 @@
+chico;5;Vegan;Salada
+user1;1;Peixe;Bacalhau
+admin;7;Carne;Panados
+Ramsey;1;Peixe;Bacalhau
+Ramsey;10;Carne;Bifinhos
+ljubomir;2;Doces;Pudim
