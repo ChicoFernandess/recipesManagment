@@ -66,7 +66,7 @@ namespace Projecto
                         if(txtPass.Text == linha.Substring(pos2, fim2))
                         {
                             people.username = txtUserName.Text;  // consegue sempre ir buscar o valor independetemente da pagina porque esta no Program.cs
-                            MessageBox.Show("Bem vindo" + txtUserName.Text);
+                            
                             Main openMain = new Main();
                             openMain.Show();
                             this.Hide();

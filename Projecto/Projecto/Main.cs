@@ -35,14 +35,14 @@ namespace Projecto
         {
             GerirCategorias openCategorias = new GerirCategorias();
             openCategorias.Show();
-            this.Hide();
+            
         }
 
         private void gerirReceitasToolStripMenuItem_Click(object sender, EventArgs e)
         {
             GerirReceitas openReceitas = new GerirReceitas();
             openReceitas.Show();
-            this.Hide();
+            
         }
 
         private void catálogoToolStripMenuItem_Click(object sender, EventArgs e)
@@ -57,6 +57,17 @@ namespace Projecto
             Perfil openPerfil = new Perfil();
             openPerfil.Show();
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void topReceitasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Ranking openRanking = new Ranking();
+            openRanking.Show();
         }
     }
 }

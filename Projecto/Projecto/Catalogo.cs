@@ -48,6 +48,11 @@ namespace Projecto
 
                     x++;
 
+
+
+                  
+                   
+
                 }
                 sr.Close();
             }
@@ -184,6 +189,13 @@ namespace Projecto
             openDetalhes.lblPrep.Text = this.dataGridReceitas.CurrentRow.Cells[4].Value.ToString();
             openDetalhes.pictureBox1.ImageLocation = this.dataGridReceitas.CurrentRow.Cells[5].Value.ToString();
             openDetalhes.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Main openMain = new Main();
+            openMain.Show();
+            this.Hide();
         }
     }
 

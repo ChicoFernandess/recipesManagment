@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Perfil));
             this.lblUser = new System.Windows.Forms.Label();
             this.dataGridfav = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -94,26 +95,34 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(331, 150);
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Typo Round Bold Demo", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(296, 144);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(79, 13);
+            this.label1.Size = new System.Drawing.Size(148, 24);
             this.label1.TabIndex = 2;
             this.label1.Text = "Meus Favoritos";
             // 
             // btnRemoveFav
             // 
+            this.btnRemoveFav.BackColor = System.Drawing.Color.Salmon;
+            this.btnRemoveFav.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+            this.btnRemoveFav.FlatAppearance.BorderSize = 5;
+            this.btnRemoveFav.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRemoveFav.Location = new System.Drawing.Point(47, 434);
             this.btnRemoveFav.Name = "btnRemoveFav";
-            this.btnRemoveFav.Size = new System.Drawing.Size(150, 23);
+            this.btnRemoveFav.Size = new System.Drawing.Size(150, 31);
             this.btnRemoveFav.TabIndex = 3;
             this.btnRemoveFav.Text = "Remover Receita";
-            this.btnRemoveFav.UseVisualStyleBackColor = true;
+            this.btnRemoveFav.UseVisualStyleBackColor = false;
             this.btnRemoveFav.Click += new System.EventHandler(this.btnRemoveFav_Click);
             // 
             // Perfil
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(800, 522);
             this.Controls.Add(this.btnRemoveFav);
             this.Controls.Add(this.label1);
